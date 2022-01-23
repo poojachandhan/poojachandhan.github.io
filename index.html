@@ -79,7 +79,10 @@
 ========================================================= -->
 <!-- Header
 ================================================== -->
-<header id="masthead" class="site-header" >    
+
+<header id="masthead" class="site-header" >
+     
+
         <!-- Main header -->
         <div class="container">     
             <!-- Navbar Header -->
@@ -136,12 +139,14 @@
 
              
 
-<a name="wedding-bio"></a>
+<a name="wedding-bio" ></a>
 
 
-<div id="container">
+    
+    
+<div id="container" >
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" onmouseover="beat();">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -150,6 +155,7 @@
     <!-- Indicators -->
     
 <br><br><br><br><br>
+  
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -245,15 +251,8 @@
 
 
 
-  <div class="section section-testimonials-wrapper" style="background-color: black" onmouseover="stop();">
-    <script type="text/javascript">
-        function stop(){
-           var sound=document.getElementById("beat");
-           sound.pause();
-           var sounds=document.getElementById("beats");
-           sounds.pause();
-        }
-    </script>
+  <div class="section section-testimonials-wrapper" style="background-color: black" onmouseover="beat();">
+   
    <center>
     <h1 style="text-align: center;font-family: lucida calligraphy italic;color:White;font-size: 60px;">Pooja And Chandan</h1>
                 <h2 style="text-align: center;font-family: Lucida Calliography;color:White;">Getting Married In</h2>
